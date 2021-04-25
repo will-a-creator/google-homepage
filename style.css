@@ -26,7 +26,7 @@
     height: 100px;
 }​
 #button{
-    position: absolute;
+    position: fixed;
     
     margin-top: -60px;
     margin-left: -300px;
