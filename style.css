@@ -5,7 +5,52 @@ html{
     display: table;
     margin: auto;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0px;
+}
+a.about:first-of-type{
+    margin-left: 15px;
+}
+a.about{
+    position: relative;
+    left: -470px;
+    bottom: -10px;
+}
+a.store:first-of-type{
+    margin-left: 15px;
+}
+a.store{
+    position: relative;
+    left: -400px;
+    bottom: 15.6px;
+}
+a.about, a.store{
+    
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+.something{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 body{
+    background: :#fff;
     display: table-cell;
     vertical-align: middle;
 }
