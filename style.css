@@ -26,16 +26,38 @@ a.store:first-of-type{
 a.store{
     position: relative;
     left: -400px;
-    bottom: 15.6px;
+    bottom: 15.55px;
 }
-a.about, a.store{
-    
+a.gmail{
+    position: relative;
+    right: -200px;
+    top: -37.8px;
+}
+a.images{
+    position: relative;
+    right: -260px;
+    top: -63.66px;
+}
+a.about, a.store, a.gmail, a.images{ 
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
     display: inline-block;
     padding: 5px;
     margin: 0 5px;
+}
+.apps{
+    color: gray;
+    width: 27px;
+    position:absolute;
+    right: -300px;
+    top: 15px;
+}
+.pfp{
+    width: 48px;
+    position: absolute;
+    right: -370px;
+    top: 6px;
 }
 .something{
     display: flex;
