@@ -69,7 +69,28 @@ a.about, a.store, a.gmail, a.images{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.footer{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    
+}
 
+.footer 
+.carbonneutral{
+    order: 0;
+    width: 100%;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0px;
+    color: #70757a;
+    vertical-align: top;
+    white-space: nowrap;
+    bottom: 100px;;
+}
 
 body{
     background: :#fff;
@@ -104,6 +125,10 @@ body{
 }​
 
 /* LAMO */
+#gsearch, #getlucky{
+    max-width: 60px;
+    max-height: 70px;
+}
 .buttons{
     
     display: flex;
@@ -111,7 +136,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 10px;
+    padding: 00px;
 }
 .buttons div{
     margin: 9px;
@@ -120,7 +145,7 @@ body{
     border-color: #c0c0c0;
     cursor: pointer;
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .buttons div:hover{
     border: 1px solid #c0c0c0;
