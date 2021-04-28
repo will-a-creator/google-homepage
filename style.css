@@ -5,6 +5,7 @@ html{
     display: table;
     margin: auto;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -123,7 +124,25 @@ body{
     width: 100px;
     height: 100px;
 }​
+.yikes{
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mioh{
+    color: #70757a;
+    display:block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    position: relative;
+    top: 700px;
+    right:200px;
+}
 /* LAMO */
 #gsearch, #getlucky{
     max-width: 60px;
